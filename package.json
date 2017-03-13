@@ -1,14 +1,16 @@
 {
-  "name": "autoassign-class-constructors",
+  "name": "babel-plugin-math-functions",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A babel plugin which provide maths functions",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "copyup ./src/index.js ./dist"
   },
   "author": "Rohan",
   "license": "ISC",
   "devDependencies": {
-    "babel-cli": "^6.24.0"
+    "babel-cli": "^6.24.0",
+    "copyfiles": "^1.2.0"
   }
 }
